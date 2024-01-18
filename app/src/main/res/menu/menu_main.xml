@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/CART"
+        android:title="Корзина"
+        android:icon="@drawable/img"
+        android:onClick="onCartClick"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/callPhone"
+        android:title="Звонок"
+        android:icon="@drawable/img_1"
+        android:onClick="onCallPhoneClick"
+        app:showAsAction="never"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/card"
+            android:title="Камера"
+            android:icon="@drawable/img_2"
+            android:onClick="onCameraClick"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/video"
+            android:title="Видео"
+            android:onClick="onVideoClick"
+            android:icon="@drawable/img_3"
+            app:showAsAction="never"/>
+    </group>
+
+    <item
+        android:id="@+id/EMAIL"
+        android:icon="@drawable/img_4"
+        android:onClick="onEmailClick"
+        android:title="Почта"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ADD"
+        android:icon="@drawable/img_5"
+        android:title="Добавить"
+        android:onClick="onAddClick"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/COPY"
+        android:icon="@drawable/img_6"
+        android:title="Сопировть"
+        android:onClick="onCopyClick"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/PASTE"
+        android:icon="@drawable/img_7"
+        android:title="Вставить"
+        android:onClick="onPasteClick"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/HELP"
+        android:icon="@drawable/img_8"
+        android:title="Помощь"
+        android:onClick="onHelpClick"
+        app:showAsAction="never" />
+
+</menu>
